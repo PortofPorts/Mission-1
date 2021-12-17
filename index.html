@@ -27,10 +27,18 @@ tw-story {
 
 h1 {
   font-size: 2.5em;
+  line-height: 1.2em;
+  margin-bottom: 0.1em;
 }
 
 h3 {
-  font-size: 1.5em;
+font-size: 1.5em;
+line-height: 1.2em;
+margin-bottom: 0.1em;
+}
+
+li {
+   margin-top: 1em;
 }
 
 [name=secondary]{
@@ -87,6 +95,7 @@ tw-link:hover {
 tw-expression {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 
@@ -97,9 +106,10 @@ input {
     -moz-appearance: none;
     -o-appearance: none;
     appearance: none;
-    border: 2px solid #141414;
-    border-radius: 4px;
+    
   	cursor: pointer;
+  	margin-right: 2em;
+  	outline: 2px solid #141414;
 }
 
 input:hover {
@@ -108,6 +118,7 @@ input:hover {
 
 input:checked {
     background-color: #f0793b;
+	border: 2px solid white;
 }
 
 .block {
@@ -227,14 +238,13 @@ img {
   min-height: fit-content;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .chart {
-  height: auto;
-  max-width: 250px;
   display: inline-block; 
+  max-height: 280px;
   margin: 5px 5x;
 }
 
@@ -307,32 +317,36 @@ tw-passage {
   }
 }
 
-$.preloadImages("https://github.com/PortofPorts/Mission-1/blob/main/assets/data-story-psd.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/data-story-2.jpg?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/01-step1-right.jpg?raw=true");</script><tw-passagedata pid="1" name="Lead-in" tags="" position="659,185" size="100,100">#Welcome 
-to
-###Mission 1 of your Data Journey: “Ask Good Questions” !
+$.preloadImages("https://github.com/PortofPorts/Mission-1/blob/main/assets/intro.jpg?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/lead-in.jpg?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/outro.jpg?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/step1-right.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step1-wrong.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step2a-right.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step2a-wrong.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step2b-right.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step2b-wrong.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step3-right.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step3-wrong.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step4-right.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step4-wrong.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step5-right.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/step5-wrong.jpg?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/line-utils/line-bl@2x.png?raw=true","https://github.com/PortofPorts/Mission-1/blob/main/assets/line-utils/line-br@2x.png?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/line-utils/line-tl@2x.png?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/line-utils/line-tr@2x.png?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-age.png?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-gender.png?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-location.png?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-country.png?raw=true", "https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-job.png?raw=true");</script><tw-passagedata pid="1" name="Lead-in" tags="" position="659,185" size="100,100">#Welcome to your Data Journey: Mission 1 “Ask Good Questions” !
+=|||
+
+&lt;img rel=&quot;preload&quot; as=&quot;image&quot; src=&quot;https://github.com/PortofPorts/Mission-1/blob/main/assets/lead-in.jpg?raw=true&quot;&gt;
+
+=||
 
 This quiz helps you to train and evaluate your abilities to:  
 * think strategically about what data to collect for a specific goal
 * ask good questions about a data set to improve your communication when requesting information from a data analyst or another colleague
 * find the right sources for the data you need. 
-
-&lt;img rel=&quot;preload&quot; as=&quot;image&quot; src=&quot;https://github.com/PortofPorts/Mission-1/blob/main/assets/data-story-psd.jpg?raw=true&quot;&gt;
+|==|
 
 (button:)[[Play-&gt;Intro]]
-
 |secondary&gt;[This game is still under development. We have not yet fully adapted this game for mobile devices and recommend using Chrome or Firefox for access.]
-</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="" position="659,336" size="100,100"> =|=
+</tw-passagedata><tw-passagedata pid="2" name="Intro" tags="" position="659,336" size="100,100">=|
 ###Hello and welcome to your office today!
-&lt;img src=https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-br@2x.png?raw=true&gt;
 
-=|=
-|==|
-&lt;img rel=&quot;preload&quot; as=&quot;image&quot; src=https://github.com/PortofPorts/Mission-1/blob/main/assets/data-story-2.jpg?raw=true&gt;
+&lt;img rel=&quot;preload&quot; src=&quot;https://github.com/PortofPorts/Mission-1/blob/main/assets/line-utils/line-br@2x.png?raw=true&quot;&gt;
+
 
 This is your new data science team that you&#39;ve hired to gain insights from the data your organization has collected over the past four years.
 
 Your goal is to develop a growth strategy by the end of the year that integrates the insights gained by the data scientists.  
 You need to lead your data team by asking good questions. 
+=||
+
+
+&lt;img rel=&quot;preload&quot; as=&quot;image&quot; src=&quot;https://github.com/PortofPorts/Mission-1/blob/main/assets/intro.jpg?raw=true&quot;&gt;
+|==|
 
 
 (button:)[[Let&#39;s get started!-&gt;Step 1]]</tw-passagedata><tw-passagedata pid="3" name="Step 1" tags="" position="659,488" size="100,100">
@@ -340,14 +354,13 @@ Which of these data sets might be helpful in developing your data-driven growth 
 Select all the correct answers.
 (set:$competitors to false, $usage to false, $expenses to false, $age to false, $personal to false)
 
-(checkbox: 2bind $competitors, &quot;Key Competitors&quot;)
-(checkbox: 2bind $usage, &quot;Product Usage&quot;)
-(checkbox: 2bind $expenses, &quot;Expenditures Of The Last Four Years&quot;)
-(checkbox: 2bind $age, &quot;Age Of Employees Per Department&quot;)
-(checkbox: 2bind $personal, &quot;Personal Customer Data (Gender, Age, Ethnicity, Country, Location, Job)
-&quot;)
+(checkbox: 2bind $competitors, &quot;Key Competitors 🏆&quot;)
+(checkbox: 2bind $usage, &quot;Product Usage 📱&quot;)
+(checkbox: 2bind $expenses, &quot;Expenditures Of The Last Four Years 📈&quot;)
+(checkbox: 2bind $age, &quot;Age Of Employees Per Department 🧑‍&quot;)
+(checkbox: 2bind $personal, &quot;Personal Customer Data (Gender, Age, Ethnicity, Country, Location, Job 🚻&quot;)
 
-(link:&quot;Check your answers.&quot;)[
+(link:&quot;Check your answers&quot;)[
 	(if: $competitors and $usage and $expenses and $personal and not $age)[(goto: &quot;Step 1 Right&quot;)]
 	(else: )[(goto: &quot;Step 1 Wrong&quot;)] 
 ] 
@@ -359,7 +372,7 @@ Looking at market data like our major competitors, product data like product usa
 &lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-tr%402x.png?raw=true&gt;
 
 =|=
-&lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/01-step1-right.jpg?raw=true&gt;
+&lt;img src=https://github.com/PortofPorts/Mission-1/blob/main/assets/step1-right.jpg?raw=true&gt;
 |==|
 
 (button:)[[Let&#39;s continue-&gt;Step 2a]]</tw-passagedata><tw-passagedata pid="5" name="Step 2a" tags="" position="584,786" size="100,100">Now that you know where to start looking for answers, it&#39;s about asking good questions.
@@ -387,7 +400,7 @@ Which questions could you ask about the “Product Usage” dataset ?
 (checkbox: 2bind _feature, &quot;Which product feature is purchased the most?&quot;)
 
 
-(link:&quot;Check your answers.&quot;)[
+(link:&quot;Check your answers&quot;)[
 	(if: _feature and _duration and _frequency and not _age and not _context)[(goto: &quot;Step 2a Right&quot;)]
 	(else: )[(goto: &quot;Step 2a Wrong&quot;)] 
 ] </tw-passagedata><tw-passagedata pid="6" name="Step 5" tags="" position="412,2011" size="100,100">Where else can you find relevant data for your growth strategy? Drag and drop the data type on the right in the sources on the left. The sources should be the ones where you could find this kind of data.
@@ -448,7 +461,7 @@ CRM analytics
 	
 &lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-br%402x.png?raw=true&gt;
 =|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2-wrong.jpg?raw=true&gt;
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step5-wrong.jpg?raw=true&gt;
 |==|
 	
 	&lt;button class = &quot;btn-close&quot;&gt; OK &lt;/button&gt;
@@ -463,7 +476,7 @@ I’ll compile this data right away
 
 &lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-br%402x.png?raw=true&gt;
 =|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/05-step5-right.jpg?raw=true&gt;
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step5-right.jpg?raw=true&gt;
 
 |==|
 	(button:)[[OK-&gt;Outro]]
@@ -540,7 +553,7 @@ function dragDrop(e){
 
 &lt;/script&gt;
 </tw-passagedata><tw-passagedata pid="7" name="Step 2a Right" tags="" position="513,937" size="100,100">=|=
-&lt;img src=https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2-right.jpg?raw=true&gt;
+&lt;img src=https://github.com/PortofPorts/Mission-1/blob/main/assets/step2a-right.jpg?raw=true&gt;
 
 =|=
 ###Perfect, 
@@ -550,7 +563,7 @@ I can directly give you an overview of how frequently the product is opened, and
 |==|
 
 (button:)[[Let&#39;s continue-&gt;Step 2b]]</tw-passagedata><tw-passagedata pid="8" name="Step 2a Wrong" tags="" position="679,931" size="100,100">=|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2-wrong.jpg?raw=true&gt;
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step2a-wrong.jpg?raw=true&gt;
 
 =|=
 ###I&#39;m sorry, 
@@ -579,7 +592,7 @@ What questions might be useful to ask about the customer&#39;s personal data?
 (checkbox: 2bind _education, &quot;What is the average level of formal education of our customers?&quot;)
 
 
-(link:&quot;Check your answers.&quot;)[
+(link:&quot;Check your answers&quot;)[
 	(if: _area and _urban and not _groups and not _home and not _education)[(goto: &quot;Step 2b Right&quot;)]
 	(else: )[(goto: &quot;Step 2b Wrong&quot;)] 
 ] </tw-passagedata><tw-passagedata pid="10" name="Step 2b Right" tags="" position="438,1237" size="100,100">=|=
@@ -589,7 +602,7 @@ Sure, I can map the geographic focus areas for you and analyze whether there is 
 &lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-br%402x.png?raw=true&gt;
 
 =|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2a-right.jpg?raw=true&gt;
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step2b-right.jpg?raw=true&gt;
 |==|
 
 (button:)[[What next?-&gt;Step 3]]</tw-passagedata><tw-passagedata pid="11" name="Step 2b Wrong" tags="" position="588,1237" size="100,100">=|=
@@ -600,16 +613,13 @@ Well, these are not (all) the useful questions.
 &lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-tr%402x.png?raw=true&gt;
 
 =|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2a-wrong.jpg?raw=true&gt;
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step2b-wrong.jpg?raw=true&gt;
 |==|
 
 (button:)[[Let&#39;s try something else! -&gt;Step 2b]]</tw-passagedata><tw-passagedata pid="12" name="Step 3" tags="" position="438,1387" size="100,100">What other questions might you ask based on this visualization of each column&#39;s data? 
 
-|chartcontainer&gt;[&lt;img class=&quot;chart&quot; src=https://github.com/elenafalomo/Data-Story/blob/main/assets/charts/Gender%20chart.jpg?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/elenafalomo/Data-Story/blob/main/assets/charts/Age%20chart.jpg?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/elenafalomo/Data-Story/blob/main/assets/charts/Country%20chart.jpg?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/elenafalomo/Data-Story/blob/main/assets/charts/Location%20chart.jpg?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/elenafalomo/Data-Story/blob/main/assets/charts/Job%20chart.jpg?raw=true&gt;
-]
-
+|chartcontainer&gt;[&lt;img class=&quot;chart&quot; src=https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-gender.png?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-age.png?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/charts-country.png?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-location.png?raw=true&gt; &lt;img class=&quot;chart&quot; src=https://github.com/PortofPorts/Mission-1/blob/main/assets/charts/chart-job.png?raw=true&gt;]
 (set: _language to false, _age to false, _over to false, _latin to false, _college to false)
-
 (checkbox: 2bind _language, &quot;What is the main language of our customers?&quot;)
 (checkbox: 2bind _age, &quot;What is the age and gender of our core customer group?&quot;)
 (checkbox: 2bind _over, &quot;How many of our customers over 70 years of age live in Paraguay?&quot;)
@@ -617,11 +627,11 @@ Well, these are not (all) the useful questions.
 (checkbox: 2bind _college, &quot;Are people with a college degree more likely to buy our product?&quot;)
 
 
-(link:&quot;Check your answers.&quot;)[
+(link:&quot;Check your answers&quot;)[
 	(if: not _language and _age and not _over and _latin and _college)[(goto: &quot;Step 3 Right&quot;)]
 	(else: )[(goto: &quot;Step 3 Wrong&quot;)] 
-] </tw-passagedata><tw-passagedata pid="13" name=" Step 3 Wrong" tags="" position="363,1537" size="100,100">=|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/03-step3-wrong.jpg?raw=true&gt;
+] </tw-passagedata><tw-passagedata pid="13" name="Step 3 Wrong" tags="" position="691,1547" size="100,100">=|=
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step3-wrong.jpg?raw=true&gt;
 
 =|=
 ###Well,
@@ -630,14 +640,16 @@ those aren&#39;t all the right questions, or some of them don&#39;t quite work. 
 &lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-bl%402x.png?raw=true&gt;
 |==|
 
-(button:)[[Let&#39;s try something else!-&gt;Step 3]]</tw-passagedata><tw-passagedata pid="14" name=" Step 3 Right" tags="" position="521,1546" size="100,100">=|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/01-step1-wrong?raw=true&gt;
+(button:)[[Let&#39;s try something else!-&gt;Step 3]]</tw-passagedata><tw-passagedata pid="14" name="Step 3 Right" tags="" position="521,1546" size="100,100">=|=
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step3-right.jpg?raw=true&gt;
 
 =|=
-###Sure, 
-&lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-bl%402x.png?raw=true&gt;
-that&#39;s easy to figure out: Our core customer group is female and  between 25 and 35 years old. We have customers in three South American countries. There are nine Spanish-speaking countries in South America and 20 Spanish-speaking countries in all of Latin America. That makes six countries in South America and 17 in Latin America that we don&#39;t yet cover. We can assume that our core clientele has a college degree, since their professions require a college degree.  
+###Sure, that&#39;s easy to figure out:
 
+Our core customer group is female and  between 25 and 35 years old. We have customers in three South American countries. There are nine Spanish-speaking countries in South America and 20 Spanish-speaking countries in all of Latin America. That makes six countries in South America and 17 in Latin America that we don&#39;t yet cover. We can assume that our core clientele has a college degree, since their professions require a college degree.  
+
+
+&lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-bl%402x.png?raw=true&gt;
 
 |==|
 
@@ -646,16 +658,12 @@ that&#39;s easy to figure out: Our core customer group is female and  between 25
 
 (set: _gender to false, _timing to false, _income to false, _child to false, _tools to false)
 (checkbox: 2bind _gender, &quot;Which gender group uses our product the most in terms of feature duration?&quot;)
-(checkbox: 2bind _timing, &quot;
-Is the duration and timing of use the same across age groups?&quot;)
-(checkbox: 2bind _income, &quot;
-Are low-income earners likely to adopt new features faster than people with higher-paying jobs?&quot;)
-(checkbox: 2bind _child, &quot;
-Are people more likely to use our product after they have children?&quot;)
-(checkbox: 2bind _tools, &quot;
-Is our product used in conjunction with other tools in certain geographic areas?&quot;)
+(checkbox: 2bind _timing, &quot;Is the duration and timing of use the same across age groups?&quot;)
+(checkbox: 2bind _income, &quot;Are low-income earners likely to adopt new features faster than people with higher-paying jobs?&quot;)
+(checkbox: 2bind _child, &quot;Are people more likely to use our product after they have children?&quot;)
+(checkbox: 2bind _tools, &quot;Is our product used in conjunction with other tools in certain geographic areas?&quot;)
 
-(link:&quot;Check your answers.&quot;)[
+(link:&quot;Check your answers&quot;)[
 	(if: _gender and _timing and _income and not _child and not _tools)[(goto: &quot;Step 4 Right&quot;)]
 	(else: )[(goto: &quot;Step 4 Wrong&quot;)] 
 ] </tw-passagedata><tw-passagedata pid="16" name="Step 4 Right" tags="" position="446,1846" size="100,100">=|=
@@ -663,15 +671,15 @@ Is our product used in conjunction with other tools in certain geographic areas?
 I can give you an overview of the gender groups to show who uses our product the most in terms of feature duration. I can also give you information on the duration and timing of use across age groups. An overview of the acceptance of new features in relation to income is also possible.
 Be aware, however, that correlation does not equal causation!
 
-&lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-tr%402x.png?raw=true&gt;
+&lt;img src= https://github.com/PortofPorts/Mission-1/blob/main/assets/line-utils/line-br@2x.png?raw=true&gt;
 
 =|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2-right.jpg?raw=true&gt;
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step4-right.jpg?raw=true&gt;
 |==|
 
 (button:)[[I&#39;ll keep that in mind!-&gt;Step 5]]</tw-passagedata><tw-passagedata pid="17" name="Step 4 Wrong" tags="" position="596,1846" size="100,100">
 =|=
-&lt;img src = https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2-wrong.jpg?raw=true&gt;
+&lt;img src = https://github.com/PortofPorts/Mission-1/blob/main/assets/step4-wrong.jpg?raw=true&gt;
 
 =|=
 ###Not quite. 
@@ -685,7 +693,7 @@ Those aren&#39;t (all) the right questions.  (I can&#39;t derive any reliable in
 
 Your team seems very happy - keep up the good work.
 
-&lt;img src=https://github.com/elenafalomo/Data-Story/blob/main/assets/06-outro?raw=true&gt;
+&lt;img src=https://github.com/PortofPorts/Mission-1/blob/main/assets/outro.jpg?raw=true&gt;
 
 You have just demonstrated that you are able to
 
@@ -697,15 +705,15 @@ You have just demonstrated that you are able to
 Share your success with your network and let everyone know how useful it is to develop your data mindset. 
 
 &lt;a href=&quot;mailto: welcome@portofports.com &quot;&gt;Click here&lt;/a&gt; if you&#39;d like to give  us your feedback about the game.
-</tw-passagedata><tw-passagedata pid="19" name="Step 1 Wrong" tags="" position="715.5,637.5325927734375" size="100,100">=|=
+</tw-passagedata><tw-passagedata pid="19" name="Step 1 Wrong" tags="" position="715,637" size="100,100">=|=
 ##Hmm, are you sure? 
 
 There are three right answers in total. And the age of our workforce doesn’t  matter to the growth of the organization. 
 
-&lt;img src= https://github.com/elenafalomo/Data-Story/blob/main/assets/line-utils/line-tr%402x.png?raw=true&gt;
+&lt;img src= https://github.com/PortofPorts/Mission-1/blob/main/assets/line-utils/line-br@2x.png?raw=true&gt;
 
 =|=
-&lt;img rel=&quot;preload&quot; as=&quot;image&quot; src = https://github.com/elenafalomo/Data-Story/blob/main/assets/02-step2a-wrong.jpg?raw=true&gt;
+&lt;img src= https://github.com/PortofPorts/Mission-1/blob/main/assets/step1-wrong.jpg?raw=true&gt;
 |==|
 
 (button:)[[Take another look at this, please.-&gt;Step 1]]</tw-passagedata></tw-storydata>
